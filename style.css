@@ -1,0 +1,26 @@
+@font-face {
+    font-family: 'Lao';
+    src: url(Noto_Sans_Lao/NotoSansLao-VariableFont_wdth\,wght.ttf);
+    
+}
+
+*{
+    font-family: 'Lao';
+}
+
+#home{
+    background-image: url(image/image1.jpg);
+    background-size: cover;
+}
+
+.fa-octopus-deploy{
+    animation:fall 10s linear forwards;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: -20px;
+}
+@keyframes fall {
+    to{
+        transform: translateY(300vh);
+    }
+}
